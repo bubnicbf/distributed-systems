@@ -3,4 +3,6 @@ language: go
 go:
   - 1.8.1
 
-script: go test -run TestBasic
+script:
+  go test -run TestBasic
+  go test -run Failure
